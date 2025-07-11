@@ -1,0 +1,27 @@
+# Dockerfile for Jupyter notebook environment
+FROM chemwise:latest
+
+USER root
+
+# Install Jupyter and additional packages
+RUN pip install --no-cache-dir \
+    jupyter \
+    jupyterlab \
+    ipywidgets \
+    matplotlib \
+    plotly \
+    seaborn \
+    pandas
+
+# Create notebooks directory
+RUN mkdir -p /app/notebooks && \
+    chown -R chemwise:chemwise /app/notebooks
+
+# Switch back to non-root user
+USER chemwise
+
+# Expose Jupyter port
+EXPOSE 8888
+
+# Start Jupyter Lab
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=chemwise-token"]
