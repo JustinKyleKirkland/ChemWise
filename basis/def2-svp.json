@@ -1,0 +1,177 @@
+{
+  "name": "def2-SVP",
+  "description": "Ahlrichs split valence polarization basis set",
+  "reference": "F. Weigend and R. Ahlrichs, Phys. Chem. Chem. Phys. 7, 3297 (2005)",
+  "elements": {
+    "1": {
+      "element": "H",
+      "shells": [
+        {
+          "shell_type": "s",
+          "exponents": [13.0107010, 1.9622572, 0.4445379, 0.1219496],
+          "coefficients": [0.0196851, 0.1379652, 0.4781436, 0.5012404]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.1219496],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [0.8000000],
+          "coefficients": [1.0000000]
+        }
+      ]
+    },
+    "2": {
+      "element": "He",
+      "shells": [
+        {
+          "shell_type": "s",
+          "exponents": [38.3549600, 5.7696830, 1.2399408, 0.2976279],
+          "coefficients": [0.0237768, 0.1546853, 0.4696299, 0.5060049]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.2976279],
+          "coefficients": [1.0000000]
+        }
+      ]
+    },
+    "3": {
+      "element": "Li",
+      "shells": [
+        {
+          "shell_type": "s",
+          "exponents": [1469.0000000, 220.5000000, 50.2600000, 14.2400000, 4.5810000, 1.5800000],
+          "coefficients": [0.0007660, 0.0058920, 0.0296710, 0.1091800, 0.2827890, 0.4531230]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.5640000, 0.0734500],
+          "coefficients": [-0.1303030, 1.1307670]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.0280500],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [1.5340000, 0.2749000],
+          "coefficients": [0.2273270, 0.8086180]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [0.0736200],
+          "coefficients": [1.0000000]
+        }
+      ]
+    },
+    "6": {
+      "element": "C",
+      "shells": [
+        {
+          "shell_type": "s",
+          "exponents": [3047.5249000, 457.3695100, 103.9486900, 29.2101550, 9.2866630, 3.1639270],
+          "coefficients": [0.0018347, 0.0140373, 0.0688426, 0.2321844, 0.4679413, 0.3623120]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [7.8682724, 1.8812885, 0.5442493],
+          "coefficients": [-0.1193324, -0.1608542, 1.1434564]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.1687144],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [7.8682724, 1.8812885, 0.5442493],
+          "coefficients": [0.0689991, 0.3164240, 0.7443083]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [0.1687144],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "d",
+          "exponents": [0.8000000],
+          "coefficients": [1.0000000]
+        }
+      ]
+    },
+    "7": {
+      "element": "N",
+      "shells": [
+        {
+          "shell_type": "s",
+          "exponents": [4173.5110000, 627.4579000, 142.9021000, 40.2343300, 12.8202100, 4.3904370],
+          "coefficients": [0.0018348, 0.0139950, 0.0685870, 0.2322410, 0.4690700, 0.3604550]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [10.8423230, 2.4228510, 0.6967192],
+          "coefficients": [-0.1149610, -0.1691180, 1.1458520]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.2127482],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [10.8423230, 2.4228510, 0.6967192],
+          "coefficients": [0.0675800, 0.3239070, 0.7408950]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [0.2127482],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "d",
+          "exponents": [1.0000000],
+          "coefficients": [1.0000000]
+        }
+      ]
+    },
+    "8": {
+      "element": "O",
+      "shells": [
+        {
+          "shell_type": "s",
+          "exponents": [5484.6717000, 825.2349500, 188.0469600, 52.9645000, 16.8975700, 5.7996353],
+          "coefficients": [0.0018311, 0.0139501, 0.0684451, 0.2327143, 0.4701930, 0.3585209]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [15.5396160, 3.5999336, 1.0137618],
+          "coefficients": [-0.1107775, -0.1480263, 1.1307670]
+        },
+        {
+          "shell_type": "s",
+          "exponents": [0.2700058],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [15.5396160, 3.5999336, 1.0137618],
+          "coefficients": [0.0708743, 0.3397528, 0.7271586]
+        },
+        {
+          "shell_type": "p",
+          "exponents": [0.2700058],
+          "coefficients": [1.0000000]
+        },
+        {
+          "shell_type": "d",
+          "exponents": [1.2000000],
+          "coefficients": [1.0000000]
+        }
+      ]
+    }
+  }
+}

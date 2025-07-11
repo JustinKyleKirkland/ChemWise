@@ -1,0 +1,20 @@
+molecule:
+  geometry: |
+    O  0.0000000  0.0000000  0.1173000
+    H  0.0000000  0.7572000 -0.4692000
+    H  0.0000000 -0.7572000 -0.4692000
+  charge: 0
+  multiplicity: 1
+
+calculation:
+  method: b3lyp
+  basis: sto-3g
+  scf:
+    max_iterations: 100
+    convergence: 1e-8
+    diis: true
+
+output:
+  orbitals: true
+  population_analysis: true
+  save_wavefunction: water_b3lyp.h5
